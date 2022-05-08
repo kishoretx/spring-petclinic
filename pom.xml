@@ -29,8 +29,8 @@
 
   </properties>
   
-  <packaging>jar</packaging>
-  
+	<packaging>jar</packaging>
+	
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
     <dependency>
@@ -115,7 +115,7 @@
   </dependencies>
 
   <build>
-     <finalName>petclinic</finalName>
+  	<finalName>petclinic</finalName>
     <plugins>
       <plugin>
         <groupId>io.spring.javaformat</groupId>
