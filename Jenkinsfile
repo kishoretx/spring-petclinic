@@ -22,8 +22,7 @@ pipeline {
 
         stage ('Deployment Stage') {
             steps {
-                echo 'Deploying because kishore does not know how to configure this Deployment'
-                }
+                echo 'Deploying because Kishore does not know how to configure this Deployment'
             }
         }
     }
