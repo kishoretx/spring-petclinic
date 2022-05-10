@@ -1,3 +1,6 @@
+PLEASE NOTE: All the Software/Tools (Jenkins, Artifactory & Docker) were installed on local machine to achieve the task.
+============
+
 
 Get the project from Github: 
 	https://github.com/kishoretx/spring-petclinic

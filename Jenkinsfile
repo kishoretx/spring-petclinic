@@ -22,7 +22,9 @@ pipeline {
 
         stage ('Deployment Stage') {
             steps {
-                echo 'Deploying because Kishore does not know how to configure this Deployment'
+                withMaven(maven : 'maven_3_8_5') {
+                    bat 'mvn deploy'
+                }
             }
         }
     }
