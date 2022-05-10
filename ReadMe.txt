@@ -27,6 +27,11 @@ Docker:
 	8. Kill docker process by using ContainerId from above command: docker kill <ContainerId>
 	9. 
 	
+======================
+Artifactory: http://localhost:8082/ui/packages
+Jenkins: http://localhost:8080/   admin/R*99
+Start Jenkins: Java -jar Jenkins.war
+
 	
 
 
